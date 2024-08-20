@@ -1,0 +1,131 @@
+* {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2e6e3;
+    color: #1e2123;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.padre {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.nav {
+    margin: 10px auto 10px auto;
+}
+
+.titulos img {
+    width: 650px;
+    margin-left: 60px;
+}
+
+/* Titles */
+.titulos h1 {
+    font-family: 'Cocomat Pro', sans-serif;
+    font-size: 2.5rem;
+    color: #ff5e17;
+    margin-bottom: 10px;
+}
+
+.titulos h2 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 1.8rem;
+    color: #06273f;
+    margin-bottom: 15px;
+}
+
+.titulos h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #1e2123;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Paragraphs */
+.parrafos p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.parrafos strong {
+    color: #ff5e17;
+}
+
+.parrafos em {
+    color: #0095ff;
+    font-style: italic;
+}
+
+/* Links */
+.parrafos a {
+    color: #00ff88;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.parrafos a:hover {
+    color: #06273f;
+    border-bottom-color: #06273f;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid #ff5e17;
+    padding-left: 15px;
+    margin-left: 0;
+    color: #1e2123;
+    font-style: italic;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #06273f;
+}
+
+blockquote cite a {
+    color: #06273f;
+    text-decoration: underline;
+}
+
+
+.titulos {
+    flex-direction: row;
+    width: 70vw;
+}
+
+.titulos h1 {
+    font-size: 3 rem;
+    font-weight: 100;
+}
+
+.parrafos {
+    flex-direction: column;
+    width: 500px;
+    margin: 50px;
+}
